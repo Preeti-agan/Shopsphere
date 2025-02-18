@@ -1,0 +1,124 @@
+[
+    {
+      "id": 1,
+      "name": "Grandeur",
+      "description": "A stylish Men's watch.",
+      "price":199,
+      "image": "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Watches"
+    },
+    {
+      "id": 2,
+      "name": "Audrey",
+      "description": "Cool Sunglasses for women's.",
+      "price": 79,
+      "image": "https://media.istockphoto.com/id/1134837210/photo/sunglasses.jpg?b=1&s=612x612&w=0&k=20&c=ivvAQKIsgIQBRNDOJ__jojF0MUu2UFOY6agLnQRh6k0=",
+      "category": "Eyewear"
+    },
+      {
+      "id": 3,
+      "name": "Escada",
+      "description": "A whisper of jasmine, a touch of sandalwood, a lingering embrace. ",
+      "price": 299,
+      "image": "https://images.pexels.com/photos/724635/pexels-photo-724635.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Perfume"
+    },
+      {
+      "id": 4,
+      "name": "Heirloom",
+      "description": " ",
+      "price": 499,
+      "image": "https://images.pexels.com/photos/744563/pexels-photo-744563.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Jewellery"
+    },
+    {
+      "id": 5,
+      "name": "The Nova",
+      "description": " Its structured silhouette and refined details make it the perfect accessory for both work and play.",
+      "price": 99,
+      "image": "https://images.pexels.com/photos/3761552/pexels-photo-3761552.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Handbag"
+    },
+    {
+      "id": 6,
+      "name": "Green Sleeveless Dress",
+      "description": "Featuring a delicate lace overlay, a flattering fit-and-flare silhouette, and a hidden back zipper, this dress is both beautiful and practical",
+      "price": 299,
+      "image": "https://images.pexels.com/photos/985635/pexels-photo-985635.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Western Dress"
+    },
+    {
+      "id": 7,
+      "name": "Belly",
+      "description": "Comfortable to your feet ",
+      "price": 299,
+      "image": "https://images.pexels.com/photos/318236/pexels-photo-318236.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Shoes"
+    },
+    {
+      "id": 8,
+      "name": "Pink Classy Heel",
+      "description": "Luxurious Heel, unforgettable style.",
+      "price": 999,
+      "image": "https://images.pexels.com/photos/8386641/pexels-photo-8386641.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+      "category": "Heel"
+    },
+    {
+      "id": 9,
+      "name": "Riot",
+      "description": "Comfortable and feel free to wear.",
+      "price": 499,
+      "image": "https://images.pexels.com/photos/5531542/pexels-photo-5531542.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+      "category": "Shoes"
+    },
+    {
+      "id": 10,
+      "name": "The Chesterfield",
+      "description": "Furry and the warm jackets",
+      "price": 29,
+      "image": "https://images.pexels.com/photos/840916/pexels-photo-840916.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Jackets"
+    },
+    {
+      "id": 11,
+      "name": "The Chelsea",
+      "description": "The perfect everyday companion. ",
+      "price": 49,
+      "image": "https://images.pexels.com/photos/1936848/pexels-photo-1936848.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Handbag"
+    },
+    {
+      "id": 12,
+      "name": "Classy Ring",
+      "description": "Featuring a classic solitaire setting, a brilliant-cut diamond, and a comfortable band, this engagement ring ",
+      "price": 899,
+      "image": "https://images.pexels.com/photos/5370640/pexels-photo-5370640.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Jewellery"
+    },
+    
+    {
+      "id": 13,
+      "name": "Daisy",
+      "description": "A whisper of jasmine, a touch of sandalwood, a lingering embrace.",
+      "price": 59,
+      "image": "https://images.pexels.com/photos/724646/pexels-photo-724646.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Perfume"
+    },
+    {
+      "id": 14,
+      "name": "Blue Bow Dress",
+      "description": " Beautiful blue dress",
+      "price": 64,
+      "image": "https://images.pexels.com/photos/30751245/pexels-photo-30751245/free-photo-of-woman-relaxing-by-waterfall-in-blue-dress.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Dress"
+    },
+    {
+      "id": 15,
+      "name": "Tumblr",
+      "description": "  The stylish Women's watch.",
+      "price": 22,
+      "image": "https://images.pexels.com/photos/236915/pexels-photo-236915.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Watches"
+    }
+  ]
+  

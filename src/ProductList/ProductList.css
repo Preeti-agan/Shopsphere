@@ -1,0 +1,37 @@
+.img1{
+    width:220px;
+    height:210px;
+    border-radius: 10px;
+    object-fit:cover ;
+    object-position: center;
+   
+  transition: opacity 0.3s ease-in-out;
+}
+.img1:hover{
+    transform: scale(1.1); 
+}
+.count{
+    border-radius: 10px;
+    background-color: rgb(245, 241, 234);
+    object-fit: cover;
+    
+    
+}
+.count1{
+    margin-top: 19px;
+}
+.h2{
+    color:rgb(255,99,71);
+}
+.para1{
+    color:rgb(255,99,71);
+}
+
+.mainn{
+    display:flex;
+   gap:50px;
+    text-align: center;
+}
+.para{
+    font-size:20px;
+}
