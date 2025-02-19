@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 const About = () => {
   return (
-    <div className="about-us-container">
+    <div className="about-us">
       <h1>About Shopsphere</h1>
       <p>
         Shopsphere is a cutting-edge product listing app designed to simplify and enhance the way you discover and explore products online.  We understand that finding the perfect item can be time-consuming and frustrating, so we've created a platform that brings all your favorite shops and products together in one convenient location.

@@ -1,4 +1,4 @@
-.pagee1{
+/* .pagee1{
     display:flex;
     gap:23px;
    margin-bottom: 0px;
@@ -16,7 +16,7 @@ font-family: "Outfit", serif;
 }
 
 /* product list */
-.product-list {
+/* .product-list {
     display:flex;
     flex-wrap:wrap;
     gap:30px;
@@ -72,4 +72,126 @@ font-family: "Outfit", serif;
 
 }
   
+ */ 
+ /* Home.css */
+.pagee1 {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  gap: 23px;
+  margin-bottom: 0px;
+  background-color: rgb(244, 234, 234);
+}
 
+.home-page {
+  flex: 1; /* Allow image to take available space */
+}
+
+.home-image {
+  width: 100%; /* Make image responsive */
+  height: auto;
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+}
+
+.page2 {
+  flex: 1; /* Allow text to take available space */
+  display: flex; /* Use flexbox for vertical centering */
+  align-items: center; /* Vertically center the text */
+  justify-content: center; /* Horizontally center the text */
+  padding: 20px; /* Add some padding around the text */
+}
+
+.pagepre {
+  font-size: 2rem; /* Use relative font size */
+  color: black;
+  font-family: "Outfit", serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center; /* Center text on all screen sizes */
+}
+
+.section1 {
+  margin-top: -7px;
+  background-color: black;
+  padding:1px ; /* Add some padding top and bottom */
+}
+
+.exclusive {
+  color: #ccc;
+  font-family: "Silkscreen", serif;
+  font-weight: 400;
+  font-size: 20px; /* Use relative font size */
+  text-align: center;
+}
+
+.exclusive:hover {
+  color: white;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center products horizontally */
+  gap: 30px;
+  padding: 20px; /* Add padding to the product list */
+}
+
+.product-card {
+  border: 2px solid rgb(245, 241, 234);
+  padding: 10px;
+  width: 250px; /* Slightly larger base width */
+  text-align: center;
+  border-radius: 9px;
+  background-color: rgb(245, 241, 234);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  flex: 1 0 250px; /* Makes card responsive and allows for some growth */
+}
+
+.product-card:hover {
+  transform: scale(0.9);
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.product-details {
+  margin-top: 10px; /* Add some space between image and details */
+}
+
+.product-name {
+  font-size: 1.2rem; /* Use relative font size */
+}
+
+.product-price {
+  font-size: 1rem; /* Use relative font size */
+}
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .pagepre {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .exclusive {
+      font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+
+  .product-card {
+      width: 90%; /* Make cards take almost full width on mobile */
+      flex: 1 0 90%; /* Update flex basis for smaller screens */
+  }
+  .pagee1{
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center;
+  }
+  .page2{
+    padding: 10px;
+  }
+}
