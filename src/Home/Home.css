@@ -1,125 +1,50 @@
-/* .pagee1{
-    display:flex;
-    gap:23px;
-   margin-bottom: 0px;
-    background-color:rgb(244, 234, 234);
-}
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Creepster&family=Dancing+Script:wght@400..700&family=Grechen+Fuemen&family=Outfit:wght@100..900&family=Pochaevsk&display=swap');
-.pagepre{
-font-size:35px;
-color:black;
-font-family: "Outfit", serif;
-  font-optical-sizing: auto;
-  font-weight:500;
-  font-style: italic;
-  margin-top: 90px;
-}
 
-/* product list */
-/* .product-list {
-    display:flex;
-    flex-wrap:wrap;
-    gap:30px;
-    margin-left:11px;
-    
-  }
-  
-  .product-card {
-    border: 2px solid rgb(245, 241, 234);;
-    padding: 10px;
-    width: 200px; 
-    text-align: center;
-    border-radius:9px;
-    background-color:rgb(245, 241, 234);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-    
-  }
-  .product-card:hover{
-    transform: scale(0.9);
-  }
-
-  
-  .product-image {
-    max-width:100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius:7px;
-    
-  }
-  
-
-  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Creepster&family=Dancing+Script:wght@400..700&family=Grechen+Fuemen&family=Outfit:wght@100..900&family=Pochaevsk&family=Silkscreen:wght@400;700&display=swap');
-
-.exclusive{
-  color:#ccc;
-  font-family: "Silkscreen", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size:25px;
-  margin-top:-5px;
-  padding:8px;
-  margin-bottom:15px;
-  text-align: center;
-}
-.exclusive:hover{
-    color:white;
-}
-.section1{
-    
-    margin-top: 0px;
-    background-color: black;
-
-}
-  
- */ 
- /* Home.css */
 .pagee1 {
   display: flex;
-  flex-wrap: wrap; /* Allow wrapping for smaller screens */
-  gap: 23px;
+  flex-wrap: wrap; 
+  gap:23px;
   margin-bottom: 0px;
   background-color: rgb(244, 234, 234);
 }
 
 .home-page {
-  flex: 1; /* Allow image to take available space */
+  flex: 1; 
 }
 
 .home-image {
-  width: 100%; /* Make image responsive */
+  width: 100%;
   height: auto;
-  object-fit: cover; /* Maintain aspect ratio and cover container */
+  object-fit: cover; 
 }
 
 .page2 {
-  flex: 1; /* Allow text to take available space */
-  display: flex; /* Use flexbox for vertical centering */
-  align-items: center; /* Vertically center the text */
-  justify-content: center; /* Horizontally center the text */
-  padding: 20px; /* Add some padding around the text */
+  flex: 1; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  padding: 20px; 
 }
 
 .pagepre {
-  font-size: 2rem; /* Use relative font size */
+  font-size: 2rem; 
   color: black;
   font-family: "Outfit", serif;
   font-weight: 500;
   font-style: italic;
-  text-align: center; /* Center text on all screen sizes */
+  text-align: center; 
 }
 
 .section1 {
   margin-top: -7px;
   background-color: black;
-  padding:1px ; /* Add some padding top and bottom */
+  padding:1px ; 
 }
 
 .exclusive {
   color: #ccc;
   font-family: "Silkscreen", serif;
   font-weight: 400;
-  font-size: 20px; /* Use relative font size */
+  font-size: 20px;
   text-align: center;
 }
 
@@ -130,21 +55,21 @@ font-family: "Outfit", serif;
 .product-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Center products horizontally */
+  justify-content: center; 
   gap: 30px;
-  padding: 20px; /* Add padding to the product list */
+  padding: 20px; 
 }
 
 .product-card {
   border: 2px solid rgb(245, 241, 234);
   padding: 10px;
-  width: 250px; /* Slightly larger base width */
+  width: 250px; 
   text-align: center;
   border-radius: 9px;
   background-color: rgb(245, 241, 234);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
-  flex: 1 0 250px; /* Makes card responsive and allows for some growth */
+  flex: 1 0 250px; 
 }
 
 .product-card:hover {
@@ -159,15 +84,15 @@ font-family: "Outfit", serif;
 }
 
 .product-details {
-  margin-top: 10px; /* Add some space between image and details */
+  margin-top: 10px; 
 }
 
 .product-name {
-  font-size: 1.2rem; /* Use relative font size */
+  font-size: 1.2rem; 
 }
 
 .product-price {
-  font-size: 1rem; /* Use relative font size */
+  font-size: 1rem; 
 }
 
 
@@ -175,23 +100,107 @@ font-family: "Outfit", serif;
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .pagepre {
-      font-size: 1.5rem; /* Adjust font size for smaller screens */
+      font-size: 1.5rem; 
   }
 
   .exclusive {
-      font-size: 1.2rem; /* Adjust font size for smaller screens */
+      font-size: 1.2rem; 
   }
 
   .product-card {
-      width: 90%; /* Make cards take almost full width on mobile */
-      flex: 1 0 90%; /* Update flex basis for smaller screens */
+      width: 90%; 
+      flex: 1 0 90%; 
   }
   .pagee1{
-    flex-direction: column; /* Stack image and text vertically */
-    align-items: center; /* Center content horizontally */
+    flex-direction: column; 
+    align-items: center; 
     text-align: center;
   }
   .page2{
     padding: 10px;
   }
+}
+
+
+
+/* new */
+.product-details-page { /* Style for the details page content */
+  padding: 20px;
+  max-width: 800px; /* Adjust as needed */
+  margin: 20px auto; /* Center the content */
+  background-color: #f8f8f8; /* Example background color */
+  border-radius: 8px; /* Example border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
+
+.product-details-page img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.product-details-page h2,
+.product-details-page h3,
+.product-details-page p {
+  margin-bottom: 10px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .product-details-page {
+    padding: 15px;
+    max-width: 95%; /* Adjust width for smaller screens */
+  }
+  /* ... other media query styles */
+
+
+  
+}
+
+
+/* new */
+/* Home.css */
+/* ... (your existing CSS) */
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.product-card {
+  border: 2px solid rgb(245, 241, 234);
+  padding: 10px;
+  width: 250px; /* Fixed width */
+  text-align: center;
+  border-radius: 9px;
+  background-color: rgb(245, 241, 234);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  /* Remove flex-basis */
+}
+
+.product-card:hover {
+  transform: scale(0.9);
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 7px;
+}
+
+/* ... (rest of your CSS) */
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .product-card {
+    width: 90%; /* Adjust for smaller screens */
+  }
+  /* ... other media query styles */
 }

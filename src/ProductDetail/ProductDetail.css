@@ -1,18 +1,20 @@
-.product-details-page {
+/* .product-details-page {
     display: flex; 
-    flex-direction: column; /* Stack image and content vertically */
+    flex-direction: column; 
     align-items: center;  
     padding: 20px;
-  }
+    
   
+  }
+   */
   .product-details-image {
-    max-width: 300px; /* Limit image width */
+    max-width: 300px; 
     height: auto;
     margin-bottom: 20px;
   }
   
   .product-details-content {
-    text-align: center; /* Center text within content */
+    text-align: center; 
   }
   
   .product-details-name {
@@ -32,11 +34,18 @@
   .go-back {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff; /* Example button color */
+    background-color: #007bff; 
     color: white;
     text-decoration: none;
     border-radius: 5px;
   }
+  /* .product-container{
+    display: flex;
+  justify-content: center; 
+  align-items: center;     
+  min-height: 100vh;      
+  padding: 20px;
+  } */
   /* .product-details-image{
     max-width: 50%;
     height: auto;
@@ -52,3 +61,39 @@
     border-radius: 5px;
     margin-top: 20px;
   } */
+
+
+  /* new */
+  /* ProductDetail.css */
+/* ... (your existing CSS) */
+
+.product-detail-container { /* Style the outer container */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align to top of viewport */
+  min-width: 100vh; /* Ensure full viewport height */
+  padding: 20px;
+  background-color: #f8f8f8; /* Example background color */
+}
+
+.product-details-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 800px; /* Or a specific width you prefer */
+  width: 90%; /* Ensure it doesn't exceed container width on smaller screens */
+  margin: 0 auto; /* Center within the container if needed */
+  background-color: #fff; /* Example background color */
+  border-radius: 8px; /* Example border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .product-details-page {
+    padding: 15px;
+    width: 95%; /* Adjust width for smaller screens */
+  }
+}

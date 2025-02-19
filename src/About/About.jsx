@@ -2,6 +2,8 @@ import React from 'react'
 import './About.css'
 const About = () => {
   return (
+    <>
+    < div className='about-us-container'>
     <div className="about-us">
       <h1>About Shopsphere</h1>
       <p>
@@ -32,8 +34,10 @@ const About = () => {
         Have questions or feedback? We'd love to hear from you! Contact us (+91 9816401850) or visit our location at (KHARAR).
       </p>
 
-       <p>&copy; {new Date().getFullYear()} Shopsphere. All rights reserved.</p> {/* Add a copyright notice */}
+       <p>&copy; {new Date().getFullYear()} Shopsphere. All rights reserved.</p>
     </div>
+    </div>
+    </>
   )
 }
 

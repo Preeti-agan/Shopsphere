@@ -12,6 +12,8 @@ const ProductDetail = ({products}) => {
   }
 
   return (
+    <>
+    <div className='product-detail-container'>
     <div className="product-details-page">
       <img src={product.image} alt={product.name} className="product-details-image" />
       <div className="product-details-content">
@@ -21,6 +23,8 @@ const ProductDetail = ({products}) => {
         <Link to="/" className="go-back">Go Back</Link>
       </div>
     </div>
+    </div>
+    </>
   )
 }
 

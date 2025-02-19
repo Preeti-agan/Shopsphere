@@ -33,7 +33,7 @@ const Home = ({products}) => {
 
 
 
-    <div className="product-list">
+    {/* <div className="product-list">
       
       
       {products.map(product => (
@@ -47,8 +47,19 @@ const Home = ({products}) => {
         </div>
       ))}
     </div>
-    
-    
+     */}
+     <div className="product-list">
+        {products.map(product => (
+          <div key={product.id} className="product-card">
+            <img src={product.image} alt={product.name} className="product-image" />
+            <div className="product-details">
+              <h3 className="product-name">{product.name}</h3>
+              <p className="product-price">${product.price}</p>
+              <Link to={`/product/${product.id}`} className="view-details">View Details</Link>
+            </div>
+          </div>
+        ))}
+      </div>
     
     </>
     
