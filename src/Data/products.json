@@ -18,7 +18,7 @@
       {
       "id": 3,
       "name": "Escada",
-      "description": "A whisper of jasmine, a touch of sandalwood, a lingering embrace. ",
+      "description": "A whisper of jasmine. ",
       "price": 299,
       "image": "https://images.pexels.com/photos/724635/pexels-photo-724635.jpeg?auto=compress&cs=tinysrgb&w=600",
       "category": "Perfume"
@@ -26,7 +26,7 @@
       {
       "id": 4,
       "name": "Heirloom",
-      "description": " ",
+      "description": " Best jewellery ever ",
       "price": 499,
       "image": "https://images.pexels.com/photos/744563/pexels-photo-744563.jpeg?auto=compress&cs=tinysrgb&w=600",
       "category": "Jewellery"
@@ -34,7 +34,7 @@
     {
       "id": 5,
       "name": " Aura",
-      "description": " Its structured silhouette and refined details make it the perfect  for work .",
+      "description": " Its structured silhouette .",
       "price": 99,
       "image": "https://images.pexels.com/photos/39716/pexels-photo-39716.jpeg?auto=compress&cs=tinysrgb&w=600",
       "category": "Eyewear"
@@ -42,7 +42,7 @@
     {
       "id": 6,
       "name": " Yellow Printed suit",
-      "description": "Featuring a delicate lace overlay, a flattering fit-and-flare silhouette, and a hidden back zipper, this dress is both beautiful and practical",
+      "description": "Featuring a delicate lace overlay.",
       "price": 299,
       "image": "https://images.pexels.com/photos/1246421/pexels-photo-1246421.jpeg?auto=compress&cs=tinysrgb&w=600",
       "category": "Traditional wear"
@@ -82,7 +82,7 @@
     {
       "id": 11,
       "name": "Leather Shoe",
-      "description": "Comfortable and feel free to wear.(men's wear)",
+      "description": "Comfortable and feel free to wear.",
       "price": 49,
       "image": "https://images.pexels.com/photos/292999/pexels-photo-292999.jpeg?auto=compress&cs=tinysrgb&w=600",
       "category": "Shoes"
@@ -90,7 +90,7 @@
     {
       "id": 12,
       "name": "Classy Ring",
-      "description": "Featuring a classic solitaire setting, a brilliant-cut diamond, and a comfortable band, this engagement ring ",
+      "description": "Featuring a classic solitaire setting. ",
       "price": 899,
       "image": "https://images.pexels.com/photos/5370640/pexels-photo-5370640.jpeg?auto=compress&cs=tinysrgb&w=600",
       "category": "Jewellery"
@@ -99,7 +99,7 @@
     {
       "id": 13,
       "name": "Daisy",
-      "description": "A whisper of jasmine, a touch of sandalwood, a lingering embrace.",
+      "description": " a touch of sandalwood.",
       "price": 59,
       "image": "https://images.pexels.com/photos/724646/pexels-photo-724646.jpeg?auto=compress&cs=tinysrgb&w=600",
       "category": "Perfume"
@@ -107,7 +107,7 @@
     {
       "id": 14,
       "name": "Chanel",
-      "description": " chanel the francy perfume and the ever lasting purfume",
+      "description": " chanel the francy perfume ",
       "price": 64,
       "image": "https://images.pexels.com/photos/755992/pexels-photo-755992.jpeg?auto=compress&cs=tinysrgb&w=600",
       "category": "Perfume"
@@ -139,7 +139,7 @@
     {
       "id": 18,
       "name": "Assorted Sunglasses",
-      "description": " The lenses, dark and reflective, not only protect your eyes from harmful UV rays but also offer a glimpse into another world ",
+      "description": " The lenses, dark and reflective ",
       "price": 29,
       "image": "https://images.pexels.com/photos/704241/pexels-photo-704241.jpeg?auto=compress&cs=tinysrgb&w=600",
       "category": "Eyewear"
@@ -147,7 +147,7 @@
     {
       "id": 19,
       "name": "Leather Jacket",
-      "description": "Hard leather jacket in the stylish manner for the men's  ",
+      "description": "Hard leather jacket   ",
       "price": 22,
       "image": "https://images.pexels.com/photos/826380/pexels-photo-826380.jpeg?auto=compress&cs=tinysrgb&w=600",
       "category": "Jackets"
@@ -155,9 +155,108 @@
     {
       "id": 20,
       "name": "Blue Velvet Suit",
-      "description": " Blue velvet suit with the jaipuri print. ",
+      "description": " Blue velvet suit with the japuri print. ",
       "price": 78,
       "image": "https://images.pexels.com/photos/28522221/pexels-photo-28522221/free-photo-of-elegant-woman-in-traditional-blue-attire.jpeg?auto=compress&cs=tinysrgb&w=600",
       "category": "Traditional wear"
-    }]
+    },
+    {
+      "id": 21,
+      "name": "Rolax",
+      "description": "Luxurious watch, unforgettable style.",
+      "price": 999,
+      "image": "https://images.pexels.com/photos/280250/pexels-photo-280250.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Watches"
+    },
+    {
+      "id": 22,
+      "name": "Riot",
+      "description": "Comfortable and feel free to wear.",
+      "price": 499,
+      "image": "https://images.pexels.com/photos/5531542/pexels-photo-5531542.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+      "category": "Shoes"
+    },
+    {
+      "id": 23,
+      "name": "The Chesterfield",
+      "description": "Furry and the warm jackets",
+      "price": 29,
+      "image": "https://images.pexels.com/photos/840916/pexels-photo-840916.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Jackets"
+    },
+    {
+      "id": 24,
+      "name": "Leather Shoe",
+      "description": "Comfortable and feel free to wear.",
+      "price": 49,
+      "image": "https://images.pexels.com/photos/292999/pexels-photo-292999.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Shoes"
+    },
+    {
+      "id": 25,
+      "name": "Classy Ring",
+      "description": "Featuring a classic solitaire setting. ",
+      "price": 899,
+      "image": "https://images.pexels.com/photos/5370640/pexels-photo-5370640.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Jewellery"
+    },
+    
+    {
+      "id": 26,
+      "name": "Daisy",
+      "description": " a touch of sandalwood.",
+      "price": 59,
+      "image": "https://images.pexels.com/photos/724646/pexels-photo-724646.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Perfume"
+    },
+    {
+      "id": 27,
+      "name": "Chanel",
+      "description": " chanel the francy perfume ",
+      "price": 64,
+      "image": "https://images.pexels.com/photos/755992/pexels-photo-755992.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Perfume"
+    },
+    {
+      "id": 28,
+      "name": "Tumblr",
+      "description": "  The stylish Women's watch.",
+      "price": 22,
+      "image": "https://images.pexels.com/photos/236915/pexels-photo-236915.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Watches"
+    },
+    {
+      "id": 29,
+      "name": "Stylish Jacket",
+      "description": "  Colourful shiny jackets",
+      "price": 272,
+      "image": "https://images.pexels.com/photos/16170/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Jackets"
+    },
+    {
+      "id": 30,
+      "name": "Red Velvet Suit",
+      "description": "red velvet suit with the jaipuri print  ",
+      "price": 12,
+      "image": "https://images.pexels.com/photos/19389381/pexels-photo-19389381/free-photo-of-eastern-dresses-2024-shoot-by-dhanno.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Traditional wear"
+    },
+    {
+      "id": 31,
+      "name": "Assorted Sunglasses",
+      "description": " The lenses, dark and reflective ",
+      "price": 29,
+      "image": "https://images.pexels.com/photos/704241/pexels-photo-704241.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Eyewear"
+    },
+    {
+      "id": 32,
+      "name": "Leather Jacket",
+      "description": "Hard leather jacket   ",
+      "price": 22,
+      "image": "https://images.pexels.com/photos/826380/pexels-photo-826380.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Jackets"
+    }
+    
+  ]
   
