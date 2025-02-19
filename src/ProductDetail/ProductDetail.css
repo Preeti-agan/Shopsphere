@@ -1,4 +1,4 @@
-
+/* 
   .product-details-image {
     max-width:300px; 
     height: auto;
@@ -12,17 +12,17 @@
   
   .product-details-name {
     font-size: 1.6rem;
-    /* margin-bottom: 10px; */
+    
   }
   
   .product-details-description {
     font-size: 1rem;;
-    /* margin-bottom: 10px; */
+    
   }
   
   .product-details-price {
     font-weight: bold;
-    /* margin-bottom: 20px; */
+   
   }
   
   .go-back {
@@ -72,5 +72,113 @@
   .product-details-page {
     padding: 15px;
     /* width: 95%;  */
+  
+/* } */ 
+.product-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically as well */
+  min-height: 100vh; /* Ensure full viewport height */
+  width: 100%; /* Ensure full viewport width */
+  padding: 20px;
+  background-color: rgb(129, 118, 118);
+}
+
+.product-details-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; /* Increased padding */
+  max-width: 90%; /* Occupy most of the screen */
+  width: 600px; /* Set a maximum width */
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(202, 196, 196, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.product-details-page:hover {
+  transform: scale(0.98); /* Slightly less aggressive scale */
+}
+
+.product-details-image {
+  max-width: 100%; /* Image takes full width of container */
+  height: auto;
+  margin-bottom: 20px; /* Add some spacing */
+}
+
+.product-details-content {
+  text-align: center;
+  font-style: italic;
+  width: 100%; /* Content takes full width */
+}
+
+.product-details-name {
+  font-size: 1.8rem; /* Slightly larger font */
+  margin-bottom: 10px;
+}
+
+.product-details-description {
+  font-size: 1.1rem; /* Slightly larger font */
+  margin-bottom: 15px;
+}
+
+.product-details-price {
+  font-weight: bold;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.go-back {
+  display: inline-block;
+  padding: 12px 25px; /* Slightly larger button */
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1rem; /* Button font size */
+}
+
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 768px) {
+  .product-details-page {
+      padding: 15px;
+      max-width: 95%; /* Almost full screen on smaller devices */
+      width: auto; /* Allow width to adjust */
+  }
+
+  .product-details-name {
+      font-size: 1.6rem;
+  }
+
+  .product-details-description {
+      font-size: 1rem;
+  }
+
+  .go-back {
+      font-size: 1rem;
+      padding: 10px 20px;
+  }
+}
+
+@media (max-width: 500px) { /* Even smaller screens */
+  .product-details-page {
+      padding: 10px;
+  }
+
+  .product-details-name {
+      font-size: 1.4rem;
+  }
+
+  .product-details-description {
+      font-size: 0.9rem;
+  }
+
+  .go-back {
+      font-size: 0.9rem;
+      padding: 8px 16px;
   }
 }
