@@ -7,7 +7,7 @@ import Home from './Home/Home';
 import ProductDetail from './ProductDetail/ProductDetail';
 import About from './About/About';
 import productsData from './Data/products.json'
-import ProductList from './ProductList/ProductList';
+
 
 
 function App() {
@@ -37,7 +37,7 @@ function App() {
           setCategoryFilter={setCategoryFilter} 
           products={products} 
         />
-        {/* <ProductList></ProductList> */}
+        
         <Routes>
           <Route path="/" element={<Home products={filteredProducts} />} />
           <Route path="/product/:id" element={<ProductDetail products={products} />} />

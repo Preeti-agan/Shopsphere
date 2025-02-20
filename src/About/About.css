@@ -41,6 +41,9 @@
   .about-us li {
     margin-bottom: 5px;
   }
+
+
+  /* media query */
   
 @media (max-width: 768px) {
   .about-us {
